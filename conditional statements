@@ -1,8 +1,10 @@
-marks=input("Enter marks: ")
+marks_unrounded=input("Enter marks: ")
 try:
-    marks=float(marks)
-    marks=round(marks)
-    if (marks>90):
+    marks_unrounded=float(marks_unrounded)
+    marks=round(marks_unrounded)
+    if (marks_unrounded>100):
+        print("Marks cannot be greater than 100")
+    elif (marks>90):
         print("Grade A")
     elif(marks>80):
         print("Grade B")
