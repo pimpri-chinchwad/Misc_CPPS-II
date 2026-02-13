@@ -1,0 +1,20 @@
+for i in range(100):
+    print(i)
+---------o/p
+1 to 99
+
+
+for i in range(5,10):
+    print(i)
+---op 
+5 to 9
+
+array=[10,22, 33,8, 9]
+for i in array:
+    print(i)
+---op 
+10
+22
+33
+8
+9
